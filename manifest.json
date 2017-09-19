@@ -1,6 +1,6 @@
 {
     "name": "jqswtcher",
-    "version": "0.0.1",
+    "version": "1.0.0",
     "manifest_version": 2,
     "description": "Jqueryをオンラインオフラインに応じて切り替える拡張機能",
     "content_scripts": [{
