@@ -1,5 +1,6 @@
 var jqread = document.getElementById('jqu');
-//alert("うんこもりもり");
+alert("うんこもりもり");
+
 function rejq() {
     //空div作成
     var mdi = document.createElement("div");
