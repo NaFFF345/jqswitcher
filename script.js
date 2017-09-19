@@ -1,5 +1,5 @@
 var jqread = document.getElementById('jqu');
-alert("うんこもりもり");
+//alert("うんこもりもり");
 
 function rejq() {
     //script加筆
