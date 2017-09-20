@@ -1,7 +1,9 @@
-var jqread = document.getElementById('jqu');
-//alert("うんこもりもり");
-
+/* function network() {
+    alert("うんこもりもり森鴎外");
+};
+ */
 function rejq() {
+    alert("うんこもりもり森鴎外");
     //script加筆
     var s1 = document.createElement("script");
     s1.src = "\"jquery-Gppgle-1.10.0.js\"";
