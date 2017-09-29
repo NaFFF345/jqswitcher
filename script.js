@@ -1,13 +1,18 @@
-/* function network() {
-    alert("うんこもりもり森鴎外");
-};
- */
+netOn = navigator.onLine;
+devMess = "うんこもりもり森鴎外";
+bd = document.getElementsByTagName("body").item(0);
+s1 = document.createElement("script");
+
 function rejq() {
-    alert("うんこもりもり森鴎外");
+    //デバッグメッセージ
     //script加筆
-    var s1 = document.createElement("script");
+    if (netOn == true) {
+        alert(devMess);
+    } else {
+        alert(devMess + "林田");
+    };
+
     s1.src = "\"jquery-Gppgle-1.10.0.js\"";
     //子要素化設定
-    var bd = document.getElementsByTagName("body").item(0);
     bd.appendChild(s1);
 };
